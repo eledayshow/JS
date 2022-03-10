@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1 class="headerh1">JavaScript</h1>
+    <h2>JavaScript — язык программирования. JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам. На JavaScript оказали влияние многие языки, при разработке была цель сделать язык похожим на Java. Языком JavaScript не владеет какая-либо компания или организация, что отличает его от ряда языков программирования, используемых в веб-разработке. Самая первая реализация JavaScript была создана Бренданом Эйхом (англ. Brendan Eich) в компании Netscape, и с тех пор обновляется, чтобы соответствовать ECMA-262 Edition 5 и более поздним версиям.</h2>
+  </div>
+
+  <div class="example">
+    <h2 class="h2">Это написано мной на JavaScript:</h2>
+    <div class="game">
+      <p>Привет! Я загадываю число от 0 до 100, а твоя задача его отгадать</p>
+
+      <div class="form">
+        <label for="userNumInput">Вводи сюда число: </label>
+        <input type="text" class="userNumInput">
+        <input type="submit" value="Проверить" class="userNumSubmit">
+      </div>
+
+      <div class="result">
+        <p class="lowOrHi"></p>
+        <p class="userNumbers"></p>
+      </div>
+    </div>
+    <div class="title">
+      <div class="form">
+        <label for="text">Хочешь изменить заголовок? Можешь это сделать ниже!</label>
+        <input type="text" placeholder="Пиши сюда" class="chText" id="text">
+        <input type="submit" value="Изменить" class="chButton">
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+  <script src="app.js"></script>
+  <script src="title.js"></script>
+</body>
+</html>
