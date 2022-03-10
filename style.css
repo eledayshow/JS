@@ -38,7 +38,7 @@ body {
   animation-delay: 0.5s;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1500px) {
   .header h1 {
     font-size: 20vw;
   }
