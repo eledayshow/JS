@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .header {
@@ -38,7 +38,7 @@ body {
   animation-delay: 0.5s;
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 800px) {
   .header h1 {
     font-size: 20vw;
   }
